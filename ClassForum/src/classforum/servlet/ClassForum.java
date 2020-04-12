@@ -26,7 +26,7 @@ public class ClassForum extends HttpServlet {
     public void init(ServletConfig config) throws ServletException{
     	super.init(config);
     	
-    	// initiate 2 default forums
+    	// initiate 2 default forums and forums list
     	
     	List<ForumClass> forums = new ArrayList<ForumClass>();		  	
     	ForumClass forum1 = new ForumClass("Web Programming", 0);
