@@ -35,7 +35,7 @@ public class CreateTopic extends HttpServlet {
 		int forumindex2 = Integer.parseInt(request.getParameter("forumIndex2"));
 		
 		
-		request.getRequestDispatcher( "/WEB-INF/CreateTopic.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/CreateTopiccf.jsp" )
         .forward( request, response );
 		
 		
@@ -68,7 +68,7 @@ public class CreateTopic extends HttpServlet {
 		topic.getPosts().add(post);
 		forums.get(forumindex2).getTopics().add(topic);
 		
-		request.getRequestDispatcher( "/WEB-INF/Return.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/Returncf.jsp" )
         .forward( request, response );
 
 		

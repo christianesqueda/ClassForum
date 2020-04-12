@@ -48,7 +48,7 @@ public class ClassForum extends HttpServlet {
 
 
 					
-		request.getRequestDispatcher( "/WEB-INF/DisplayForums.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/DisplayForumscf.jsp" )
         .forward( request, response );
 		
 	}

@@ -34,7 +34,7 @@ public class DisplayTopics extends HttpServlet {
 		
 		int forumindex = Integer.parseInt(request.getParameter("forumIndex"));
 			
-		request.getRequestDispatcher( "/WEB-INF/DisplayTopics.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/DisplayTopicscf.jsp" )
         .forward( request, response );
 	}
 

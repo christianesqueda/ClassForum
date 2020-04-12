@@ -45,7 +45,7 @@ public class DisplayChosenTopic extends HttpServlet {
 		result = formatter.format(today);
 		
 		
-		request.getRequestDispatcher( "/WEB-INF/DisplayChosenTopic.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/DisplayChosenTopiccf.jsp" )
         .forward( request, response );
 		
 		
@@ -76,7 +76,7 @@ public class DisplayChosenTopic extends HttpServlet {
 		
 		forums.get(forumindex2).getTopics().get(indexDCT).getPosts().add(post);
 		
-		request.getRequestDispatcher( "/WEB-INF/ReturnChosenTopic.jsp" )
+		request.getRequestDispatcher( "/WEB-INF/ReturnChosenTopiccf.jsp" )
         .forward( request, response );
 
 	}
